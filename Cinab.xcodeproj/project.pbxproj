@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DFC6F54E4635956699258F9 /* Pods_Cinab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3662EEFA9F50721841EFE96 /* Pods_Cinab.framework */; };
 		2002B49C18A9991300495B3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2002B49B18A9991300495B3D /* Foundation.framework */; };
 		2002B49E18A9991300495B3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2002B49D18A9991300495B3D /* CoreGraphics.framework */; };
 		2002B4A018A9991300495B3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2002B49F18A9991300495B3D /* UIKit.framework */; };
@@ -97,6 +96,7 @@
 		39B8E8632858B04A00355B24 /* LEANRegexRulesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B8E8612858B04A00355B24 /* LEANRegexRulesManager.m */; };
 		39C7BFCB2A85E666006AF63C /* LEANLaunchScreenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C7BFCA2A85E666006AF63C /* LEANLaunchScreenManager.m */; };
 		39DE1B492935E67F0001E926 /* GNLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE1B482935E67F0001E926 /* GNLogManager.m */; };
+		6575B1CB4F51DEF57B41221D /* Pods_Cinab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB6F3330E8125EBDCB4D457 /* Pods_Cinab.framework */; };
 		8C1309EE4D3426FD2400FDE7 /* Pods_MedianIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6204B12ADCD3BD22C2FED8E4 /* Pods_MedianIOSTests.framework */; };
 		BB3C460E26A9C1F9007D03DA /* GoNativeJSBridgeLibrary.js in Resources */ = {isa = PBXBuildFile; fileRef = BB3C460D26A9C1F9007D03DA /* GoNativeJSBridgeLibrary.js */; };
 		BB6E68A9273C731E004846A3 /* GNJSBridgeInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E68A8273C731E004846A3 /* GNJSBridgeInterface.m */; };
@@ -269,11 +269,11 @@
 		39DE1B472935E66E0001E926 /* GNLogManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNLogManager.h; sourceTree = "<group>"; };
 		39DE1B482935E67F0001E926 /* GNLogManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNLogManager.m; sourceTree = "<group>"; };
 		57B26C0FE7D1B5AEC213FEDA /* Pods-MedianIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedianIOSTests.release.xcconfig"; path = "Target Support Files/Pods-MedianIOSTests/Pods-MedianIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E8E156423855E36A0148C24 /* Pods-Cinab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinab.debug.xcconfig"; path = "Target Support Files/Pods-Cinab/Pods-Cinab.debug.xcconfig"; sourceTree = "<group>"; };
 		6204B12ADCD3BD22C2FED8E4 /* Pods_MedianIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedianIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6321B2F0F247B73B862558F0 /* Pods-GoNativeIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNativeIOSTests.release.xcconfig"; path = "Target Support Files/Pods-GoNativeIOSTests/Pods-GoNativeIOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		704A05039A2CBBE8CEFF1108 /* Pods-GonativeIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GonativeIO.debug.xcconfig"; path = "Target Support Files/Pods-GonativeIO/Pods-GonativeIO.debug.xcconfig"; sourceTree = "<group>"; };
-		A3C7A7A0AA54CC0BE7EFA6BF /* Pods-Cinab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinab.debug.xcconfig"; path = "Target Support Files/Pods-Cinab/Pods-Cinab.debug.xcconfig"; sourceTree = "<group>"; };
-		B3662EEFA9F50721841EFE96 /* Pods_Cinab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cinab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A940390383D51B30C6B01E /* Pods-Cinab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinab.release.xcconfig"; path = "Target Support Files/Pods-Cinab/Pods-Cinab.release.xcconfig"; sourceTree = "<group>"; };
 		BB182FAF2683478900DC8EAA /* LEANDlogDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEANDlogDefinition.h; sourceTree = "<group>"; };
 		BB3C460D26A9C1F9007D03DA /* GoNativeJSBridgeLibrary.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = GoNativeJSBridgeLibrary.js; sourceTree = "<group>"; };
 		BB6E68A7273C7308004846A3 /* GNJSBridgeInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNJSBridgeInterface.h; sourceTree = "<group>"; };
@@ -287,7 +287,7 @@
 		CB0604840B04380FB43592B0 /* Pods-Median.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Median.debug.xcconfig"; path = "Target Support Files/Pods-Median/Pods-Median.debug.xcconfig"; sourceTree = "<group>"; };
 		D34123186C7515C0E5EFB9A5 /* Pods-Median.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Median.release.xcconfig"; path = "Target Support Files/Pods-Median/Pods-Median.release.xcconfig"; sourceTree = "<group>"; };
 		E07AD9F93CDDA4A887CC8FBB /* Pods-GoNativeIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoNativeIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-GoNativeIOSTests/Pods-GoNativeIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EE7D154E546913E4376C079C /* Pods-Cinab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinab.release.xcconfig"; path = "Target Support Files/Pods-Cinab/Pods-Cinab.release.xcconfig"; sourceTree = "<group>"; };
+		FEB6F3330E8125EBDCB4D457 /* Pods_Cinab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cinab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,7 +309,7 @@
 				2002B49E18A9991300495B3D /* CoreGraphics.framework in Frameworks */,
 				2002B4A018A9991300495B3D /* UIKit.framework in Frameworks */,
 				2002B49C18A9991300495B3D /* Foundation.framework in Frameworks */,
-				0DFC6F54E4635956699258F9 /* Pods_Cinab.framework in Frameworks */,
+				6575B1CB4F51DEF57B41221D /* Pods_Cinab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +366,7 @@
 				2002B49D18A9991300495B3D /* CoreGraphics.framework */,
 				2002B49F18A9991300495B3D /* UIKit.framework */,
 				6204B12ADCD3BD22C2FED8E4 /* Pods_MedianIOSTests.framework */,
-				B3662EEFA9F50721841EFE96 /* Pods_Cinab.framework */,
+				FEB6F3330E8125EBDCB4D457 /* Pods_Cinab.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -562,8 +562,8 @@
 				D34123186C7515C0E5EFB9A5 /* Pods-Median.release.xcconfig */,
 				27F0E59042D016BF592C72A2 /* Pods-MedianIOSTests.debug.xcconfig */,
 				57B26C0FE7D1B5AEC213FEDA /* Pods-MedianIOSTests.release.xcconfig */,
-				A3C7A7A0AA54CC0BE7EFA6BF /* Pods-Cinab.debug.xcconfig */,
-				EE7D154E546913E4376C079C /* Pods-Cinab.release.xcconfig */,
+				5E8E156423855E36A0148C24 /* Pods-Cinab.debug.xcconfig */,
+				72A940390383D51B30C6B01E /* Pods-Cinab.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1031,7 +1031,7 @@
 		};
 		2002B4CE18A9991300495B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3C7A7A0AA54CC0BE7EFA6BF /* Pods-Cinab.debug.xcconfig */;
+			baseConfigurationReference = 5E8E156423855E36A0148C24 /* Pods-Cinab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1060,7 +1060,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.median.ios.zmapjd;
+				PRODUCT_BUNDLE_IDENTIFIER = co.median.ios.obwaar;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1075,7 +1075,7 @@
 		};
 		2002B4CF18A9991300495B3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE7D154E546913E4376C079C /* Pods-Cinab.release.xcconfig */;
+			baseConfigurationReference = 72A940390383D51B30C6B01E /* Pods-Cinab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1104,7 +1104,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.median.ios.zmapjd;
+				PRODUCT_BUNDLE_IDENTIFIER = co.median.ios.obwaar;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
